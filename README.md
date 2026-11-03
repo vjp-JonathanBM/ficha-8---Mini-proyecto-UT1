@@ -38,3 +38,27 @@ Tecnologías que forman habitualmente parte del backend:
 - Java
 - Python
 - C#
+
+Como funciona el modelo cliente-servidor en pccomponentes.
+
+Cuando un usuario busca una tarjeta gráfica:
+1. Escribe el nombre en el buscador.
+2. El navegador realiza una petición al servidor.
+3. El servidor procesa la búsqueda.
+4. Devuelve información de los productos que coinciden.
+5. El navegador muestra los resultados.
+
+El modelo cliente-servidor permite que el navegador solicite información y que el servidor la procese y responda.
+
+
+![alt text](image.png)
+Es un get, da un codigo 200 por lo que esta bien la peticion y el content-type es image/webp por que es una imagen en ese formato.
+
+![alt text](image-1.png)
+Es un get, da un codigo 200 por lo que esta bien la peticion y el content-type es text/css por que es un archivo css para darle formato al index.
+
+![alt text](image-2.png)
+Es un get, da un codigo 200 por lo que esta bien la peticion y el content-type es image/webp por que es una imagen en ese formato, es para el fabicon.
+
+![alt text](image-3.png)
+Es un get, da un codigo 200 por lo que esta bien la peticion y el content-type es application/x-javascript; charset=utf-8;
