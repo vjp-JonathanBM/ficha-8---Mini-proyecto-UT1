@@ -1,11 +1,11 @@
 # ficha-8---Mini-proyecto-UT1
 
-Pagina: PCComponentes
-Url: https://www.pccomponentes.com/
+### Pagina: PCComponentes
+### Url: https://www.pccomponentes.com/
 
-Identificar el Frontend del Backend
+# Identificar el Frontend del Backend
 
-Frontend
+## Frontend
 
 El frontend es la parte de PcComponentes que se ejecuta en el navegador y con la que interactúa el usuario.
 
@@ -22,7 +22,7 @@ Tecnologías que forman habitualmente parte del frontend:
 - CSS: estilos visuales.
 - JavaScript: interactividad y comportamiento.
 
-Backend
+## Backend
 El backend es la parte que funciona en los servidores de PcComponentes.
 
 En una tienda online como PcComponentes, el backend se encarga de funciones como:
@@ -39,7 +39,7 @@ Tecnologías que forman habitualmente parte del backend:
 - Python
 - C#
 
-Como funciona el modelo cliente-servidor en pccomponentes.
+## Como funciona el modelo cliente-servidor en pccomponentes.
 
 Cuando un usuario busca una tarjeta gráfica:
 1. Escribe el nombre en el buscador.
@@ -50,15 +50,26 @@ Cuando un usuario busca una tarjeta gráfica:
 
 El modelo cliente-servidor permite que el navegador solicite información y que el servidor la procese y responda.
 
+# Peticiones explicadas
 
 ![alt text](image.png)
+
 Es un get, da un codigo 200 por lo que esta bien la peticion y el content-type es image/webp por que es una imagen en ese formato.
 
+
+
 ![alt text](image-1.png)
+
 Es un get, da un codigo 200 por lo que esta bien la peticion y el content-type es text/css por que es un archivo css para darle formato al index.
 
+
+
 ![alt text](image-2.png)
+
 Es un get, da un codigo 200 por lo que esta bien la peticion y el content-type es image/webp por que es una imagen en ese formato, es para el fabicon.
 
+
+
 ![alt text](image-3.png)
+
 Es un get, da un codigo 200 por lo que esta bien la peticion y el content-type es application/x-javascript; charset=utf-8;
