@@ -34,3 +34,7 @@ En una tienda online como PcComponentes, el backend se encarga de funciones como
 - Consultar información relacionada con disponibilidad y stock.
 
 Tecnologías que forman habitualmente parte del backend:
+- Javascript
+- Java
+- Python
+- C#
